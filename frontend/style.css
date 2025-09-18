@@ -135,6 +135,21 @@ ul {
     font-family: "Inter", sans-serif;
     font-size: 18px;
     margin: 20px 0;
+
+}
+
+.name-list {
+  list-style: none;
+  margin-top: 1rem;
+  text-align: left;
+}
+
+.name-list li {
+  background: #9b9b9b;
+  padding: 8px;
+  border-radius: 6px;
+  margin-bottom: 6px;
+  font-size: 0.95rem;
 }
 
 .result-list {
