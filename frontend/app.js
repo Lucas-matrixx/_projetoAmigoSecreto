@@ -6,21 +6,21 @@ function adicionarNome(){
     let nomeDigitado = document.getElementById('participantes');
     let nomeAmigo = nomeDigitado.value;
 
-    let emailDigitado = document.getElementById('participantes-email');
-    let emailAmigo = emailDigitado.value;
+    // let emailDigitado = document.getElementById('participantes-email');
+    // let emailAmigo = emailDigitado.value;
 
-    if (!nomeAmigo || !emailAmigo){
+    if (!nomeAmigo){ //|| !emailAmigo
         alert('Há campos para preencher');
     } else { 
         const verificacao = lista_participantes.some(participante => { 
-            return participante.nome === nomeAmigo || participante.email === emailAmigo;
+            return participante.nome === nomeAmigo //|| participante.email === emailAmigo;
     });
         if (verificacao){
-            alert('Esse nome ou email já foi adicionado a lista do jogo')
+            alert('Esse nome já está participando do amigo secreto')
         } else {
             let novoParticipante = {
-                nome: nomeAmigo,
-                email: emailAmigo
+                nome: nomeAmigo
+                //email: emailAmigo
             };
         lista_participantes.push(novoParticipante);
         console.log(lista_participantes);
@@ -36,7 +36,7 @@ function mostrarParticipantes() {
 
   lista_participantes.forEach(p => {
     let li = document.createElement("li");
-    li.textContent = p.nome + " (" + p.email + ")";
+    li.textContent = p.nome; //+ " (" + p.email + ")";
     lista.appendChild(li);
   });
 }
@@ -48,7 +48,7 @@ function sortearNome() {
     alert('É necessário ter pelo menos 2 participantes para realizar o sorteio.');
     return;
   }
-
+  
   let resultado_sorteio = {};
 
   let participantes_disponiveis = [];
@@ -90,14 +90,19 @@ function sortearNome() {
     li.textContent = `${lista_participantes} → ${resultado_sorteio[lista_participantes]}`;
     listaResultado.appendChild(li);
   }
+  //limpa a lista de participantes
+  const lista = document.getElementById("listaAmigos");
+    lista.innerHTML = "";
+
   return resultado_sorteio;
+  
 }
 
 
 function limparCaixaTexto(){
     let limpar = document.getElementById('participantes');
-    let clear = document.getElementById('participantes-email')
+    // let clear = document.getElementById('participantes-email')
     limpar.value = '';
-    clear.value = '';
+    // clear.value = '';
 }
 
