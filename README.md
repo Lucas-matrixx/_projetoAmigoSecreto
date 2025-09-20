@@ -7,7 +7,7 @@
 Projeto inicial que trás a ideia da brincadeira do amigo secreto versão web com sorteio dos participantes e validações para evitar erros
 
 ## 🗂️ Acesso ao Projeto
-Você pode acessar o [projeto aqui](https://github.com/Lucas-matrixx/_projetoAmigoSecreto) com deploy na Versel
+Você pode acessar o [projeto aqui]([https://github.com/Lucas-matrixx/_projetoAmigoSecreto](https://projeto-amigo-secreto-theta.vercel.app/)) com deploy na Versel
 
 ## 🚀 Funcionalidades
 
