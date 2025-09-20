@@ -7,8 +7,6 @@ Amigo Secreto Web
 Projeto inicial que trás a ideia da brincadeira do amigo secreto versão web com sorteio dos participantes e validações para evitar erros
 
 
-<h2>🚀 Funcionalidades</h2>
-
 ## 🗂️ Acesso ao Projeto
 Você pode acessar o [projeto aqui](https://projeto-amigo-secreto-gilt.vercel.app/) com deploy na Versel
 
