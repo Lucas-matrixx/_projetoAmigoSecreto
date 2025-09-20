@@ -41,8 +41,6 @@ function mostrarParticipantes() {
   });
 }
 
-
-//sorteio dos participantes
 function sortearNome() {
   if (lista_participantes.length < 2) {
     alert('É necessário ter pelo menos 2 participantes para realizar o sorteio.');
@@ -57,28 +55,22 @@ function sortearNome() {
   }
   console.log(participantes_disponiveis)
 
-  // Escolher o primeiro participante
   let indice = Math.floor(Math.random() * participantes_disponiveis.length);
   let primeiro_sorteado = participantes_disponiveis.splice(indice, 1)[0];
   let atual = primeiro_sorteado;
 
-  // Enquanto sobrar mais de 0 (mantém o ciclo rodando até o fim)
   while (participantes_disponiveis.length > 0) {
     let possiveis = participantes_disponiveis.filter(p => p !== atual);
     let sorteado = possiveis[Math.floor(Math.random() * possiveis.length)];
-
-    // usar o nome do objeto (se existir) ou o próprio valor
     let chaveAtual = atual.nome ? atual.nome : atual;
     let valorSorteado = sorteado.nome ? sorteado.nome : sorteado;
 
     resultado_sorteio[chaveAtual] = valorSorteado;
 
-    // remove o sorteado
     participantes_disponiveis = participantes_disponiveis.filter(p => p !== sorteado);
     atual = sorteado;
   }
 
-  // Último recebe o primeiro
   let chaveUltimo = atual.nome ? atual.nome : atual;
   let valorPrimeiro = primeiro_sorteado.nome ? primeiro_sorteado.nome : primeiro_sorteado;
   resultado_sorteio[chaveUltimo] = valorPrimeiro;
@@ -90,14 +82,13 @@ function sortearNome() {
     li.textContent = `${lista_participantes} → ${resultado_sorteio[lista_participantes]}`;
     listaResultado.appendChild(li);
   }
-  //limpa a lista de participantes
-  const lista = document.getElementById("listaAmigos");
+
+  let lista = document.getElementById("listaAmigos");
     lista.innerHTML = "";
 
   return resultado_sorteio;
   
 }
-
 
 function limparCaixaTexto(){
     let limpar = document.getElementById('participantes');

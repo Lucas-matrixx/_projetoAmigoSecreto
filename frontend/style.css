@@ -145,18 +145,17 @@ ul {
 }
 
 .name-list li {
-  display: flex;
-  background: #9b9b9b;
+  background: #23ccff;
   padding: 8px;
   border-radius: 6px;
   margin-bottom: 6px;
   font-size: 0.95rem;
-  flex-direction: line;
+  
 }
 
 .result-list {
     margin-top: 15px;
-    color: #05DF05;
+    color: #dfd105;
     font-size: 22px;
     font-weight: bold;
     text-align: center;
