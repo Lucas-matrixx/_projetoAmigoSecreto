@@ -1,4 +1,4 @@
-Amigo Secreto Web
+
 <h1>Projeto Amigo Secreto feito em HTML, CSS e JavaScript</h1>
 -- 
 <br>
