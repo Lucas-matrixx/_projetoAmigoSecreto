@@ -6,7 +6,14 @@ Amigo Secreto Web
 <br>
 Projeto inicial que trás a ideia da brincadeira do amigo secreto versão web com sorteio dos participantes e validações para evitar erros
 
+<<<<<<< HEAD
 <h2>🚀 Funcionalidades</h2>
+=======
+## 🗂️ Acesso ao Projeto
+Você pode acessar o [projeto aqui](https://projeto-amigo-secreto-theta.vercel.app/) com deploy na Versel
+
+## 🚀 Funcionalidades
+>>>>>>> 785957b01b9227e76ed6829150ed75eb30a5b8d2
 
 <li>Cadastro de participantes pelo nome - (no case sensitive)
 
