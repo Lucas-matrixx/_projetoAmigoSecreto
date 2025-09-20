@@ -26,26 +26,6 @@ Projeto inicial que trás a ideia da brincadeira do amigo secreto versão web co
 <li>CSS</li>
 <li>JavaScript</li>
 
-<h2>💻 Como usar</h2>
-  
-1° - Clone o repositório:
-
-<i>git clone https://github.com/seu-usuario/_projetoAmigoSecreto.git
-
-<br>
-2° Entre na pasta do projeto:
-
-cd _projetoAmigoSecreto
-
-
-Abra o arquivo index.html no navegador.
-
-Digite o nome do participante e clique em Adicionar.
-
-Clique em Sortear amigo para ver o resultado.
-
-
-
 <h2>Melhorias Futuras</h2>
 
 <li>Envio de resultados por email usando Python onde só o sistema sabe quem tirou quem
