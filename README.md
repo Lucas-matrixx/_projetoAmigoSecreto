@@ -6,7 +6,10 @@
 <br>
 Projeto inicial que trás a ideia da brincadeira do amigo secreto versão web com sorteio dos participantes e validações para evitar erros
 
-<h2>🚀 Funcionalidades</h2>
+## 🗂️ Acesso ao Projeto
+Você pode acessar o [projeto aqui](https://github.com/Lucas-matrixx/_projetoAmigoSecreto) com deploy na Versel
+
+## 🚀 Funcionalidades
 
 <li>Cadastro de participantes pelo nome - (no case sensitive)
 
@@ -20,13 +23,13 @@ Projeto inicial que trás a ideia da brincadeira do amigo secreto versão web co
 
   <br>
 
-<h2>🛠 Ferramentas</h2>
+## 🛠 Ferramentas
 
 <li>HTML</li>
 <li>CSS</li>
 <li>JavaScript</li>
 
-<h2>Melhorias Futuras</h2>
+## 🎯Melhorias Futuras
 
 <li>Envio de resultados por email usando Python onde só o sistema sabe quem tirou quem
 <li>Animações alternadas para os cards da lista.
