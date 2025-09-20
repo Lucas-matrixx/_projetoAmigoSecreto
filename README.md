@@ -1,4 +1,4 @@
-
+Amigo Secreto Web
 <h1>Projeto Amigo Secreto feito em HTML, CSS e JavaScript</h1>
 -- 
 <br>
@@ -6,10 +6,7 @@
 <br>
 Projeto inicial que trás a ideia da brincadeira do amigo secreto versão web com sorteio dos participantes e validações para evitar erros
 
-## 🗂️ Acesso ao Projeto
-Você pode acessar o [projeto aqui](https://github.com/Lucas-matrixx/_projetoAmigoSecreto) com deploy na Versel
-
-## 🚀 Funcionalidades
+<h2>🚀 Funcionalidades</h2>
 
 <li>Cadastro de participantes pelo nome - (no case sensitive)
 
@@ -23,13 +20,14 @@ Você pode acessar o [projeto aqui](https://github.com/Lucas-matrixx/_projetoAmi
 
   <br>
 
-## 🛠 Ferramentas
+<h2>🛠 Ferramentas</h2>
 
 <li>HTML</li>
 <li>CSS</li>
 <li>JavaScript</li>
 
-## 🎯Melhorias Futuras
+
+<h2>Melhorias Futuras</h2>
 
 <li>Envio de resultados por email usando Python onde só o sistema sabe quem tirou quem
 <li>Animações alternadas para os cards da lista.
