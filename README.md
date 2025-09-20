@@ -2,9 +2,11 @@ Amigo Secreto Web
 <h1>Projeto Amigo Secreto feito em HTML, CSS e JavaScript</h1>
 -- 
 <br>
-Projeto inicial que trás a ideia da brincadeira do amigo secreto versão web
+:construction: Projeto em construção :construction:
+<br>
+Projeto inicial que trás a ideia da brincadeira do amigo secreto versão web com sorteio dos participantes e validações para evitar erros
 
-<h2>Funcionalidades</h2>
+<h2>🚀 Funcionalidades</h2>
 
 <li>Cadastro de participantes pelo nome - (no case sensitive)
 
@@ -18,11 +20,31 @@ Projeto inicial que trás a ideia da brincadeira do amigo secreto versão web
 
   <br>
 
-<h2>Ferramentas</h2>
+<h2>🛠 Ferramentas</h2>
 
 <li>HTML</li>
 <li>CSS</li>
 <li>JavaScript</li>
+
+<h2>💻 Como usar</h2>
+  
+1° - Clone o repositório:
+
+<i>git clone https://github.com/seu-usuario/_projetoAmigoSecreto.git
+
+<br>
+2° Entre na pasta do projeto:
+
+cd _projetoAmigoSecreto
+
+
+Abra o arquivo index.html no navegador.
+
+Digite o nome do participante e clique em Adicionar.
+
+Clique em Sortear amigo para ver o resultado.
+
+
 
 <h2>Melhorias Futuras</h2>
 
@@ -32,3 +54,4 @@ Projeto inicial que trás a ideia da brincadeira do amigo secreto versão web
 <li>Sistema sugere temas de presentes (ex: “presente feito à mão”, “algo azul”, "Quero Doce").
 <li>Mandar notificações legais na tela, (alguem tirou uma pessoa que quer Doces, Tem um presente bem caro aqui ein!)
 <li>Botão de reset</li>
+
