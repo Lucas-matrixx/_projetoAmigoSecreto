@@ -4,7 +4,7 @@ Amigo Secreto Web
 <br>
 :construction: Projeto em construção :construction:
 <br>
-Projeto inicial que trás a ideia da brincadeira do amigo secreto versão web com sorteio dos participantes e validações para evitar erros
+<li>Projeto inicial que trás a ideia da brincadeira do amigo secreto versão web com sorteio dos participantes e validações para evitar erros
 
 
 ## 🗂️ Acesso ao Projeto
@@ -24,14 +24,14 @@ Você pode acessar o [projeto aqui](https://projeto-amigo-secreto-gilt.vercel.ap
 
   <br>
 
-<h2>🛠 Ferramentas</h2>
+## 🛠 Ferramentas</h2>
 
 <li>HTML</li>
 <li>CSS</li>
 <li>JavaScript</li>
 
 
-<h2>Melhorias Futuras</h2>
+## 🎯 Melhorias Futuras</h2>
 
 <li>Envio de resultados por email usando Python onde só o sistema sabe quem tirou quem
 <li>Animações alternadas para os cards da lista.
