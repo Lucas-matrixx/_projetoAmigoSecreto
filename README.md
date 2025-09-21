@@ -20,7 +20,7 @@ Você pode acessar o [projeto aqui](https://projeto-amigo-secreto-gilt.vercel.ap
 
 <li>Sorteio automático que garante que ninguém sorteie a si mesmo, nem sorteie alguem já sorteado.
 
-<li>Após o sorteio, a lista desaparece e só fica o resultado.
+<li>Após o sorteio, a lista desaparece e só fica o resultado, onde o nome a esquerda recebe o amigo com o nome a direita
 
 <li>Para recomeçar o jogo, aperte F5 ou atualize a página</li>
 
