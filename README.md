@@ -22,6 +22,8 @@ Você pode acessar o [projeto aqui](https://projeto-amigo-secreto-gilt.vercel.ap
 
 <li>Após o sorteio, a lista desaparece e só fica o resultado.
 
+<li>Para recomeçar o jogo, aperte F5 ou atualize a página</li>
+
   <br>
 
 ## 🛠 Ferramentas</h2>
